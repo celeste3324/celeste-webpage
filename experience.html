@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Celeste webpage</title>
+    <link rel="shortcut icon" href="photo/celeste-正方形.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+    <nav>
+        <ul id="main_menu">
+            <li><a href="home.html">主頁</a></li>
+            <li><a href="portfolio.html">作品集</a></li>
+            <li><a href="experience.html">經歷</a></li>
+            <li><a href="contact method.html">聯絡方式</a></li>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">搜尋</button>
+            </form>
+        </ul>
+    </nav>
+
+    <div class="fixed_bg bg_1">
+        <h1 class="vcenter" style="background-color:indianred;">服裝設計模特</h1>
+    </div>
+
+    <div class="infos color_1">
+        <div class="container">
+            <div id="box">
+                <br>
+                <h2>服裝設計模特</h2>
+                <p style="color: aliceblue;">很開心在大二下學期收到邀請擔任服裝設計的模特，從初審到畢製，經歷一次次修改後終於榮獲優勝!很為我的設計者高興，也很榮幸可以穿上她的作品。</p>
+
+            </div>
+            <button id="fadeIn_btn">FadeIn</button>
+            <button id="fadeOut_btn">FadeOut</button>
+            <button id="toggle_btn">Toogle</button>
+
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+            <script>
+                $('#fadeIn_btn').click(function () {
+                    $('#box p').hide(1000, function () {
+                        console.log("訊息隱藏");
+                    });
+                });
+                $('#fadeOut_btn').click(function () {
+                    $('#box p').show(1000, function () {
+                        console.log("訊息顯示");
+                    });
+                });
+                $('#toggle_btn').click(function () {
+                    $('#box p').toggle(1000, function () {
+                        console.log("訊息切換");
+                    });
+                });
+            </script>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="mx-auto" style="width: 35rem;">
+                <img class="card-img-top" src="photo/experience/model.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text bg-dark" style="color: aliceblue;">主題:設計師的內心世界，很特別的一次體驗。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed_bg bg_2">
+        <h1 class="vcenter" style="background-color:darkcyan;">系學會大家庭</h1>
+    </div>
+    <div class="infos color_2">
+        <div class="container">
+            <div id="box">
+                <br>
+                <h2>多媒體動畫系學會</h2>
+                <p style="color: aliceblue;">剛進大學時完全沒有想過要加入系學會，在朋友的推薦下加入，意外地擔任了會長，辦理了好多好多的活動，很累也很充實，很開心我的大學生活能和別人有些不同。</p>
+
+            </div>
+            <button id="fadeIn_btn">FadeIn</button>
+            <button id="fadeOut_btn">FadeOut</button>
+            <button id="toggle_btn">Toogle</button>
+
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+            <script>
+                $('#fadeIn_btn').click(function () {
+                    $('#box p').hide(1000, function () {
+                        console.log("訊息隱藏");
+                    });
+                });
+                $('#fadeOut_btn').click(function () {
+                    $('#box p').show(1000, function () {
+                        console.log("訊息顯示");
+                    });
+                });
+                $('#toggle_btn').click(function () {
+                    $('#box p').toggle(1000, function () {
+                        console.log("訊息切換");
+                    });
+                });
+            </script>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="mx-auto" style="width: 35rem;">
+                <img class="card-img-top" src="photo/experience/student organizations.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text" style="color: aliceblue;">大二上加入了系學會，也十分意外地就擔任了系會長，一年之中雖然很忙碌但能跟朋友一起努力辦活動，真的很棒!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed_bg bg_3">
+        <h1 class="vcenter" style="background-color: coral;">韓國海外見學</h1>
+    </div>
+    <div class="infos color_3">
+        <div class="container">
+            <div id="box">
+                <br>
+                <h2>韓國海外見學</h2>
+                <p style="color: aliceblue;">成功在2023七月份和同學及老師一同前往韓國見學，參訪了很多知名的多媒體相關公司，觀摩到了很多，真的很謝謝老師們規劃這麼棒的旅程。</p>
+
+            </div>
+            <button id="fadeIn_btn">FadeIn</button>
+            <button id="fadeOut_btn">FadeOut</button>
+            <button id="toggle_btn">Toogle</button>
+
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+            <script>
+                $('#fadeIn_btn').click(function () {
+                    $('#box p').hide(1000, function () {
+                        console.log("訊息隱藏");
+                    });
+                });
+                $('#fadeOut_btn').click(function () {
+                    $('#box p').show(1000, function () {
+                        console.log("訊息顯示");
+                    });
+                });
+                $('#toggle_btn').click(function () {
+                    $('#box p').toggle(1000, function () {
+                        console.log("訊息切換");
+                    });
+                });
+            </script>
+        <div class="mx-auto" style="width: 35rem;">
+            <img class="card-img-top" src="photo/experience/South Korea travel.jpg" alt="Card image cap">
+            <div class="card-body">
+                <p class="card-text bg-dark" style="color: aliceblue;">很幸運能和大家一起去韓國見學，觀摩到很多新事物，一路上也很開心，謝謝所有老師讓我麼有這麼好的體驗。</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="fixed_bg bg_4">
+        <h1 class="vcenter" style="background-color: darkkhaki;">專題微電影拍攝劇照</h1>
+    </div>
+    <div class="infos color_4">
+        <div class="container">
+            <div id="box">
+                <br>
+                <h2>專題微電影拍攝-血迷情</h2>
+                <p style="color: aliceblue;">從小就對電影很有興趣，很高興現在有能力可以嘗試拍攝微電影，從前期企劃到拍攝當下再到後期剪接殺青，雖然很累很花錢，但看到成片完成後覺得很值得，不過還有很多需要學習的，希望可以越來越好。</p>
+
+            </div>
+            <button id="fadeIn_btn">FadeIn</button>
+            <button id="fadeOut_btn">FadeOut</button>
+            <button id="toggle_btn">Toogle</button>
+
+            <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+                integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+            <script>
+                $('#fadeIn_btn').click(function () {
+                    $('#box p').hide(1000, function () {
+                        console.log("訊息隱藏");
+                    });
+                });
+                $('#fadeOut_btn').click(function () {
+                    $('#box p').show(1000, function () {
+                        console.log("訊息顯示");
+                    });
+                });
+                $('#toggle_btn').click(function () {
+                    $('#box p').toggle(1000, function () {
+                        console.log("訊息切換");
+                    });
+                });
+            </script>
+            <div class="mx-auto" style="width: 35rem;">
+                <img class="card-img-top" src="photo/experience/movie.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text bg-dark" style="color: aliceblue;">第一次花費了這麼多心力(還很燒錢)拍攝微電影，還有很多需要學習的。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
